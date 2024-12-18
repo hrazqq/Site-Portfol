@@ -1,0 +1,154 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://kartinki.pics/uploads/posts/2022-12/thumbs/1669935685_4-kartinkin-net-p-fon-dlya-saita-svetlii-vkontakte-4.jpg);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+main {
+    margin: 20px;
+}
+#about {
+    text-align: center;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    font-size:20px ;
+}
+.profile img {
+    margin-left: 350px;
+    width: 450px;
+    height: auto;
+    border-radius: 10px;
+}
+#tools {
+    text-align: center; 
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.language-cards {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around; 
+    margin: 20px 0; 
+    overflow-x: auto;
+}
+
+.language-card {
+    width: 150px; 
+    margin: 0 5px; 
+    flex-shrink: 0;
+    text-align: center; 
+    padding: 10px; 
+    border: 2px solid #007bff; 
+    border-radius: 8px; 
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.language-card img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 4px; 
+}
+.works {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 30px;
+}
+.work-item {
+    padding-bottom: 50px;
+    text-decoration: none;
+}
+footer {
+    margin-top: 20px;
+    background-color: #f8f8f8;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+.hh2 {
+    text-align: center;
+    font-size: 30px;
+}
+.aa1 {
+    text-decoration: none;
+    color: black;
+    
+}
+#contact {
+    text-align: center; 
+    margin: 40px 0; 
+}
+
+.contact-form { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    max-width: 400px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    border: 1px solid #007bff; 
+    border-radius: 10px; 
+    background-color: rgba(255, 255, 255, 0.9); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    width: 100%; 
+    margin-bottom: 15px; 
+    margin-right: 18px
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold; 
+}
+
+input {
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    font-size: 16px; 
+}
+
+input:focus {
+    border-color: #007bff; 
+    outline: none; 
+}
+
+button {
+    padding: 10px 20px; 
+    background-color: #007bff; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+}
+
+button:hover {
+    background-color: #0056b3; 
+}
+.foot {
+    text-decoration: none;
+    color: black;
+}
